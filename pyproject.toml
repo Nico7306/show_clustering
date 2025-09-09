@@ -1,0 +1,24 @@
+[project]
+name = "show-clustering"
+version = "0.1.0"
+description = "A data analysis training project focused on clustering techniques of netflix shows."
+authors = [
+    { name="Nico7306", email="nicolaslysee@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = ["data analysis", "clustering", "machine learning", "training"]
+dependencies = [
+    "numpy>=2.3.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/Nico7306/show-clustering"
+
+[tool.setuptools]
+packages = ["show_clustering"]
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
